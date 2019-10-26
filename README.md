@@ -1,0 +1,2 @@
+# blog
+membuat final project
