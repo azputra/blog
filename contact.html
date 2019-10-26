@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+  <link href='contact.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+  <header>
+    <div class="jumbotron">
+      <div class="container">
+        <a href="#me?" class="btn-main"> Ahmad Zuliansyah Putra </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li> Home </li>
+        </a>
+        <a href="review.html">
+          <li> Review </li>
+        </a>
+        <a href="contact.html">
+          <li class="current"> Contact </li>
+        </a>
+        <a href="./game/index.html">
+          <li> Game </li>
+        </a>
+      </ul>
+    </nav>
+  </main>
+
+  <div class="wrap">
+    <aside class="sidebar">
+      <div class="widget">
+        <h2 id="me?">About Me?</h2>
+        <img src="./img/me.jpg" alt="" style="height: 400px; width: 250px;">
+        <h4>Putra</h4>
+        <p>Kesibukan saat ini sedang belajar di Hacktiv8</p>
+      </div>
+      <div class="widget">
+        <h2>Social Media</h2>
+        <p>ingin mengenal saya lebih jauh ? <a target="_blank" href="https://web.facebook.com/uta102">klik di sini</a>.
+        </p>
+      </div>
+      <div class="widget">
+        <h2>Social Media</h2>
+        <p>Saya juga punya instagram <a target="_blank" href="https://www.instagram.com/ahmadzuliansyahp/?hl=en">klik di
+            sini</a>.</p>
+      </div>
+    </aside>
+
+    <!-- bagian konten Blog -->
+    <div class="blog">
+      <div class="conteudo">
+        <form action="">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Your Mail</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="indonesia">Indonesia</option>
+            <option value="inggris">Inggris</option>
+            <option value="korea">Korea</option>
+            <option value="jepang">Jepang</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
